@@ -18,8 +18,8 @@ capabilities: [{
     'appium:app': 'TimofiiNativeDemoApp',   
 
     'bstack:options': {
-        deviceName: 'Google Pixel 6',
-        platformVersion: '12.0',
+        deviceName: 'Google Pixel 7',
+        platformVersion: '13.0',
         projectName: 'First Webdriverio Android Project',
         buildName: 'Webdriverio Android',
         sessionName: 'first_test',
