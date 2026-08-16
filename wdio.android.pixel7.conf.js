@@ -3,6 +3,9 @@ exports.config = {
     key: process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
 
     hostname: 'hub.browserstack.com',
+    port: 443,
+    protocol: 'https',
+    path: '/wd/hub',
   
     updateJob: false,
     specs: [
