@@ -31,4 +31,4 @@ jobs:
         run: npm ci
 
       - name: Run mobile tests
-        run: npx wdio run wdio.conf.js
+        run: npx wdio run wdio.android.pixel7.conf.js
